@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/testis.dir/link.d CMakeFiles/testis.dir/main.cpp.o CMakeFiles/testis.dir/glad.c.o -o testis  /usr/local/lib/libglfw3.a -ldl -lpthread /usr/lib/x86_64-linux-gnu/librt.a -lm -ldl
