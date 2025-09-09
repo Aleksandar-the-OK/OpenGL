@@ -17,15 +17,3 @@ if(UNIX)
     target_link_libraries(testis dl pthread)
 endif()
 
-
-
-
-
-cmake_minimum_required(VERSION 3.10)
-project(ProjectName)
-
-find_package(glfw3 REQUIRED)
-find_package(OpenGL REQUIRED)
-
-add_executable(projectname main.cpp)
-target_link_libraries(projectname PRIVATE glfw OpenGL::GL)
