@@ -129,19 +129,6 @@ testis/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testis.dir/build.make CMakeFiles/testis.dir/build
 .PHONY : testis/fast
 
-#=============================================================================
-# Target rules for targets named projectname
-
-# Build rule for target.
-projectname: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 projectname
-.PHONY : projectname
-
-# fast build rule for target.
-projectname/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectname.dir/build.make CMakeFiles/projectname.dir/build
-.PHONY : projectname/fast
-
 glad.o: glad.c.o
 .PHONY : glad.o
 
@@ -172,7 +159,6 @@ main.o: main.cpp.o
 # target to build an object file
 main.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testis.dir/build.make CMakeFiles/testis.dir/main.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectname.dir/build.make CMakeFiles/projectname.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -181,7 +167,6 @@ main.i: main.cpp.i
 # target to preprocess a source file
 main.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testis.dir/build.make CMakeFiles/testis.dir/main.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectname.dir/build.make CMakeFiles/projectname.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -190,7 +175,6 @@ main.s: main.cpp.s
 # target to generate assembly for a file
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testis.dir/build.make CMakeFiles/testis.dir/main.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectname.dir/build.make CMakeFiles/projectname.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -201,7 +185,6 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... projectname"
 	@echo "... testis"
 	@echo "... glad.o"
 	@echo "... glad.i"

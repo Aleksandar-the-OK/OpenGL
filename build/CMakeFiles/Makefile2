@@ -64,12 +64,10 @@ CMAKE_BINARY_DIR = /home/sashe/Desktop/CPP/3DRender/Testis/build
 
 # The main recursive "all" target.
 all: CMakeFiles/testis.dir/all
-all: CMakeFiles/projectname.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/testis.dir/codegen
-codegen: CMakeFiles/projectname.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -78,7 +76,6 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/testis.dir/clean
-clean: CMakeFiles/projectname.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -88,7 +85,7 @@ clean: CMakeFiles/projectname.dir/clean
 CMakeFiles/testis.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testis.dir/build.make CMakeFiles/testis.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testis.dir/build.make CMakeFiles/testis.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sashe/Desktop/CPP/3DRender/Testis/build/CMakeFiles --progress-num=3,4,5 "Built target testis"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sashe/Desktop/CPP/3DRender/Testis/build/CMakeFiles --progress-num=1,2,3 "Built target testis"
 .PHONY : CMakeFiles/testis.dir/all
 
 # Build rule for subdir invocation for target.
@@ -105,45 +102,13 @@ testis: CMakeFiles/testis.dir/rule
 # codegen rule for target.
 CMakeFiles/testis.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testis.dir/build.make CMakeFiles/testis.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sashe/Desktop/CPP/3DRender/Testis/build/CMakeFiles --progress-num=3,4,5 "Finished codegen for target testis"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sashe/Desktop/CPP/3DRender/Testis/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target testis"
 .PHONY : CMakeFiles/testis.dir/codegen
 
 # clean rule for target.
 CMakeFiles/testis.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testis.dir/build.make CMakeFiles/testis.dir/clean
 .PHONY : CMakeFiles/testis.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/projectname.dir
-
-# All Build rule for target.
-CMakeFiles/projectname.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectname.dir/build.make CMakeFiles/projectname.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectname.dir/build.make CMakeFiles/projectname.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sashe/Desktop/CPP/3DRender/Testis/build/CMakeFiles --progress-num=1,2 "Built target projectname"
-.PHONY : CMakeFiles/projectname.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/projectname.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sashe/Desktop/CPP/3DRender/Testis/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/projectname.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sashe/Desktop/CPP/3DRender/Testis/build/CMakeFiles 0
-.PHONY : CMakeFiles/projectname.dir/rule
-
-# Convenience name for target.
-projectname: CMakeFiles/projectname.dir/rule
-.PHONY : projectname
-
-# codegen rule for target.
-CMakeFiles/projectname.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectname.dir/build.make CMakeFiles/projectname.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/sashe/Desktop/CPP/3DRender/Testis/build/CMakeFiles --progress-num=1,2 "Finished codegen for target projectname"
-.PHONY : CMakeFiles/projectname.dir/codegen
-
-# clean rule for target.
-CMakeFiles/projectname.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/projectname.dir/build.make CMakeFiles/projectname.dir/clean
-.PHONY : CMakeFiles/projectname.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -10,11 +10,5 @@
   "command": "/usr/bin/cc  -I/home/sashe/Desktop/CPP/3DRender/Testis/include -g -o CMakeFiles/testis.dir/glad.c.o -c /home/sashe/Desktop/CPP/3DRender/Testis/glad.c",
   "file": "/home/sashe/Desktop/CPP/3DRender/Testis/glad.c",
   "output": "CMakeFiles/testis.dir/glad.c.o"
-},
-{
-  "directory": "/home/sashe/Desktop/CPP/3DRender/Testis/build",
-  "command": "/usr/bin/c++  -I/home/sashe/Desktop/CPP/3DRender/Testis/include -g -std=gnu++17 -o CMakeFiles/projectname.dir/main.cpp.o -c /home/sashe/Desktop/CPP/3DRender/Testis/main.cpp",
-  "file": "/home/sashe/Desktop/CPP/3DRender/Testis/main.cpp",
-  "output": "CMakeFiles/projectname.dir/main.cpp.o"
 }
 ]
