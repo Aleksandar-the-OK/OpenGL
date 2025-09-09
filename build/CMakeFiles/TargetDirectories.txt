@@ -1,3 +1,0 @@
-/home/sashe/Desktop/CPP/3DRender/Testis/build/CMakeFiles/testis.dir
-/home/sashe/Desktop/CPP/3DRender/Testis/build/CMakeFiles/edit_cache.dir
-/home/sashe/Desktop/CPP/3DRender/Testis/build/CMakeFiles/rebuild_cache.dir
